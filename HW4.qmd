@@ -1,1 +1,6 @@
-hh
+```{r}
+setwd("C:/Users/EV/Downloads/archive (2)")
+data <- read.csv("energy_disclosure_2021_rows.csv")
+
+```
+

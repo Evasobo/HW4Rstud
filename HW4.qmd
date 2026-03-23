@@ -9,6 +9,7 @@ library(janitor)
 
 data <- data %>%
   clean_names()
+<<<<<<< HEAD
 
 library(dplyr)
 
@@ -63,5 +64,7 @@ geo_data$long[2] <- -73.9918
 geo_data$lat[3]  <- 40.7553
 geo_data$long[3] <- -73.9921
 
+=======
+>>>>>>> 526e34952333be2cb548740728025132002b072a
 ```
 

@@ -37,7 +37,7 @@ data <- data %>%
 ```
 
 ```{r}
-install.packages("tidygeocoder")
+#install.packages("tidygeocoder")
 library(tidygeocoder)
 library(dplyr)
 

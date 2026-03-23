@@ -4,3 +4,10 @@ data <- read.csv("energy_disclosure_2021_rows.csv")
 
 ```
 
+```{r}
+library(janitor)
+
+data <- data %>%
+  clean_names()
+```
+
